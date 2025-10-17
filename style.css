@@ -1,0 +1,207 @@
+/*YLEISET ASETUKSET*/
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 0 auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+   /*outline: solid rgb(255, 0, 0);*/
+}
+
+/*BODY JA WRAPPER*/
+
+.background {
+    background-image: url(Kuttura_talvikuva_kohina.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.background-2 {
+    background-image: url(images/background-default.jpg);
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    min-width: 70vw;
+    max-width: 70vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px 10px;
+}
+
+/*HEADER*/
+
+#title-header {
+    height: 33vmin;
+    min-height: 80px;
+    margin-bottom: 4.5vmin;
+}
+
+header {
+    display: inline;
+}
+
+#website-title {
+    font-size: 70px;
+}
+
+h1 {
+    font-weight: Normal;
+    font-size: 50px;
+}
+
+#website-subtitle {
+    font-size: 30px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: lighter;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+
+/*MAIN CONTENT*/
+
+.content {
+    height: auto;
+    margin-top: 3vmin;
+}
+
+p {
+    margin: 20px 0px;
+    line-height: 1.3;
+    font-weight:normal;
+}
+
+.lukuohje {
+    font-style: italic;
+}
+
+a {
+    font-weight: normal;
+    text-decoration:none;
+}
+
+.button:hover {
+    color: rgb(0, 15, 231);
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0;
+    margin-top: 3vmin;
+  }
+
+li {
+    list-style-position: inside;
+    margin: 10px 0;
+    font-weight: bold;
+}
+ 
+.takaisin {
+    margin: 20px 0px 50px;
+}
+
+/*MEDIA QUERIES*/
+
+/*fonttikoot*/
+/*@media (max-width: 500px) and (min-width: 300px) {
+    #website-title {
+        font-size: 14vw;
+    }
+    #website-subtitle {
+        font-size: 6vw;
+    }
+    h1 {
+        font-size: 10vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    * {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 560px) {
+    * {
+        font-size: 3.2vw;
+    }
+}
+
+@media (max-width: 300px) {
+    #website-title {
+        font-size: 42px;
+    }
+    #website-subtitle {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    * {
+        font-size: 16px;
+    }
+}*/
+
+/*Headerit kun portrait*/
+
+/*@media (max-width: 560px) {
+    #title-header {
+        height: 5vmin;
+        margin-bottom: 7.5vw;
+    }
+    header {
+        height: 36vw;
+        margin-bottom: 4vw;
+    }
+    h2 {
+        margin-left: 7vw;
+    }
+}*/
+
+/*@media (max-height: 800px) and (orientation: landscape) {
+    #title-header {
+        height: 35vh;
+        margin-bottom: 5.6vh;
+    }
+    header {
+        height: 25vh;
+        min-height: 100px;
+        margin-bottom: 5.5vh;
+    }
+}
+
+/*wrapperin koko*/
+
+  @media (max-width: 665px) {
+    .wrapper {
+        max-width: 90vw;
+        min-width: 90vw;
+    }
+}
+
+
